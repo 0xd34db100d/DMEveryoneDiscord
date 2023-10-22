@@ -13,7 +13,7 @@ const id = config.ID
 const token = config.BOT_TOKEN
 
 client.on(Discord.Events.ClientReady, async (client) => {
-    console.log("Bot just loaded! @Exitiale 2023\nGoing to: " + id + "\n")
+    console.log("Bot just loaded! @D34D 2023\nGoing to: " + id + "\n")
     const guild = await client.guilds.fetch(id)
     const members = await guild.members.fetch()
     var all = members.size
